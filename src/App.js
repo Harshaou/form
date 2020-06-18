@@ -8,8 +8,7 @@ class App extends Component {
       <div class="container">
       <h2>Looking for cofounder </h2>
         <div class="row">
-          
-        
+  
           <div className="formname">
           <form name="contact" method="POST" data-netlify="true">
             <p className="form-group">

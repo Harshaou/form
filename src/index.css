@@ -20,13 +20,18 @@ code {
 .app{
   margin-top: 50px;
   
-  
 }
 
-.formname{
-  width: 340px;
+.formname,h2{
   margin: auto;
-    width: 50%;
-    border: 3px solid green;
+  width: 60%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 567px){
+  .formname,h2{
+    margin: auto;
+    width: 90%;
     padding: 10px;
+  }
 }
