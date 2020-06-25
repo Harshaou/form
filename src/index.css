@@ -9,7 +9,7 @@ body {
 
 body{
   background-image: linear-gradient( 135deg, #38b36f 10%, #0c582e 100%);
-  height: 150vh;
+  height: 100%;
 }
 
 code {
@@ -18,24 +18,37 @@ code {
 }
 
 .app{
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
-.formname,h2{
+h1{
   margin: auto;
   width: 60%;
-  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.formname{
+  margin: auto;
+  width: 60%;
 }
 
 .p{
   margin: auto;
-  width: 92%;
-  border: 1px solid#20c997;;
-  padding: 30px;
+  width: 60%;
   border-radius: 10px;
-  font-weight: bold;
-  margin-top: 30px;
+  font-weight: bolder;
   margin-bottom: 30px;
+  margin-top: 20px;
+  color: rgb(219, 217, 217);
+}
+
+.asim{
+  letter-spacing: 1px;
+  margin: auto;
+  width: 60%;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
 }
 
 @media screen and (max-width: 567px){
@@ -44,4 +57,32 @@ code {
     width: 90%;
     padding: 10px;
   }
+
+  .asim{
+    letter-spacing: 1px;
+    margin: auto;
+    width: 90%;
+    font-size: 24px;
+    font-weight: bold;
+  }
 }
+
+.radio{
+  margin: auto;
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    color: #6c757d;
+}
+
+
+ .form-check-label{
+   padding-right: 10px;
+ }
+
+ .fullform{
+   margin-bottom: 350px;
+ }
+
+
