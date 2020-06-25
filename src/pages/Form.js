@@ -9,7 +9,7 @@ const Form = () => {
 
           <div className='fullform'>
           <div class="form-group">
-              <h4 style={{color: 'white'}}>In which role you belive you can do somthing great ?</h4>
+              <h4 name="one" style={{color: 'white'}}>In which role you belive you can do somthing great ?</h4>
               <select class="form-control" id="exampleFormControlSelect1">
                 <option>CEO</option>
                 <option>CTO</option>
@@ -20,7 +20,7 @@ const Form = () => {
             </div>
             
             <div class="form-group">
-              <h4 style={{color: 'white'}} >What is your expected equity sharing percentage ?</h4>
+              <h4 name="two" style={{color: 'white'}} >What is your expected equity sharing percentage ?</h4>
               <select class="form-control" id="exampleFormControlSelect1">
                 <option>10%</option>
                 <option>20%</option>
@@ -31,7 +31,7 @@ const Form = () => {
             </div>
 
             <div class="form-group">
-              <h4 style={{color: 'white'}} >How much time you would be able to contribute ?</h4>
+              <h4 name="three" style={{color: 'white'}} >How much time you would be able to contribute ?</h4>
               <select class="form-control" id="exampleFormControlSelect1">
                 <option>Part time time (10h/week)</option>
                 <option>Half time time (20h/week)</option>
@@ -41,17 +41,17 @@ const Form = () => {
             </div>
 
             <p className="form-group">
-            <h4 style={{color: 'white'}} >How do you view failure ?</h4>
+            <h4 name="four" style={{color: 'white'}} >How do you view failure ?</h4>
               <input placeholder="Answer " className="form-control" type="email" name="email" />
             </p>
 
             <p className="form-group">
-            <h4 style={{color: 'white'}} >62% of startup failure is due to co-founder conflict. What is your view about this fact ?</h4>
+            <h4 name="five" style={{color: 'white'}} >62% of startup failure is due to co-founder conflict. What is your view about this fact ?</h4>
               <input placeholder="Answer" className="form-control" type="email" name="email" />
             </p>
             
             <p className="form-group">
-            <h4 style={{color: 'white'}}>Do you really belive you want to do this ? What motivates you ?</h4>
+            <h4 name="six" style={{color: 'white'}}>Do you really belive you want to do this ? What motivates you ?</h4>
               <textarea placeholder="Answer" cols="30" rows="7" className="form-control" name="message"></textarea>
             </p>
             <p className="form-group">
