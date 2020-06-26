@@ -5,7 +5,7 @@ const Form = () => {
         <div>
             <div class="row">
           <div className="formname">
-          <form name="contact" method="POST" >
+          <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" >
 
           <div className='fullform'>
           <div class="form-group">
