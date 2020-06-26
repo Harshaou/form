@@ -26,6 +26,21 @@ handleIntrest = (val) => {
        <Route exact path="/" component={Home}/>
        <Route path='/form' component={Form} />
        <Route path='/thankyou' component={Thankyou} /> 
+
+       <form name="contact" method="post">
+          <p>
+            <label>Your Name: <input type="text" name="name"/></label>
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email"/></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
      
 
       </div>
